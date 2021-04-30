@@ -1153,7 +1153,7 @@ body.active #b[data-scroll="in"] {
 
 #b[data-scroll="in"] #containers {
   position: relative;
-  margin-top:100px;
+  margin-top:150px;
   
   max-width: 800px;
   transform: skewY(-20deg);
@@ -1169,7 +1169,7 @@ body.active #b[data-scroll="in"] {
 
 #b[data-scroll="in"] #containers #imgbx img {
   position: absolute;
-  top: 0;
+  top: 5px;
   left: -200px;
   width: 150%;
   height: 110%;
