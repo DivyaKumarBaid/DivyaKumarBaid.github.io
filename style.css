@@ -1229,7 +1229,7 @@ body.active #b[data-scroll="in"] #containers #skew p {
 }
 #b[data-scroll='in'] span img {
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 0;
     width: 100%;
     height: 100%;
