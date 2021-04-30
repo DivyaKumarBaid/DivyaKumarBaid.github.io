@@ -1235,4 +1235,5 @@ body.active #b[data-scroll="in"] #containers #skew p {
     height: 100%;
     object-fit: contain;
     transition: 0.75s;
+    opacity:0.9;
 }
