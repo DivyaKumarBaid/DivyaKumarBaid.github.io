@@ -12,7 +12,7 @@
     <title>My Portfolio</title>
 
 </head>
-</head>
+
 
 <body onload="loadfun()">
 
@@ -44,9 +44,9 @@
 
                 </i>
                 </span>
-                
+
                 <!-- this is for side bar -->
-                
+
                 <div id="sidebar">
                     <div class="navigation">
                         <ul>
@@ -85,7 +85,7 @@
     <!-- this is end of nav bar -->
 
     <!-- this is first page-->
-    
+
     <section id="firstpage">
 
         <span id="firstpagebackground">
@@ -98,8 +98,8 @@
             <img src="pics/firstpage/8.png" data-speed="-2" class="layer" alt="">
         </span>
         <span class="layer" id="opaque" data-speed="7"></span>
-        <img src="pics/firstpage/front_page1.png" data-speed="-5" class="layer" alt="">
-        <img src="pics/firstpage/front_page2.png" data-speed="-2" class="layer" alt="" style="top: 20%;">
+        <!-- <img src="pics/firstpage/front_page1.png" data-speed="-5" class="layer" alt="" id="polygon"> -->
+        <!-- <img src="pics/firstpage/front_page2.png" data-speed="-2" class="layer" alt="" id="polygon"> -->
         <h2 class="layer" data-speed="2">Hey ! <br>I am Divya Kr. Baid</h2>
     </section>
     <!-- this is end of first page -->
@@ -108,7 +108,6 @@
     <!-- this is second page -->
 
     <section id="secondpage">
-       
         <div class="wrapper">
             <div class="container-fluid">
                 <div class="row align-content-center">
@@ -142,10 +141,10 @@
             </div>
         </div>
     </section>
-    
-<!-- this is end of second page -->
-    
-<!-- this is third page -->
+
+    <!-- this is end of second page -->
+
+    <!-- this is third page -->
 
     <section id="thirdpage">
         <span id="aboutmecover"><img src="pics/aboutme page/aboutme.png" alt="" style="transform: scale(0.8);">
@@ -192,20 +191,25 @@
                     <h2>e</h2>
                     <h2>&#93;</h2>
                 </span>
-                <span class="box-topic"></span>
-                <h3>
-                    Hey its me Divya Kumar Baid and I am currently pursuing B.Tech from Techno Main Saltlake in Computer Science and Engineering . I tend to explore a lot . Ahem by exploration I mean I love to know and work on those projects I have never worked on before.
-                    I am not exactly a mad scientist but yeah I can be called a Pirate
-                    <img src="https://media.tenor.com/images/6ae5f1fd6b39eca817349f1dbb6dc994/tenor.gif" alt="" style="width: 30px;height: 30px;position: relative;top: -2px;">.Never the less I am a freelancer,Graphic designer,Youtuber,Developer.
-                </h3>
-                <span class="box-content"></span>
+                <span class="boxcontent">
+                    <h3>
+                        Hey its me Divya Kumar Baid and I am currently pursuing B.Tech from Techno Main Saltlake in
+                        Computer Science and Engineering . I tend to explore a lot . Ahem by exploration I mean I love
+                        to know and work on those projects I have never worked on before.
+                        I am not exactly a mad scientist but yeah I can be called a Pirate
+                        <img src="https://media.tenor.com/images/6ae5f1fd6b39eca817349f1dbb6dc994/tenor.gif" alt=""
+                            style="width: 30px;height: 30px;position: relative;top: -2px;">.Never the less I am a
+                        freelancer,Graphic designer, Youtuber, Developer.
+                    </h3>
+                </span>
+
             </div>
         </div>
 
     </section>
-    
+
     <!-- this is end of third page -->
-    
+
     <!-- this is fourthpage -->
 
 
@@ -234,7 +238,7 @@
                 <!-- useful in overlay animation -->
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col">
+                        <div class="col-md">
 
                             <div id="card" class="card1">
                                 <div id="circle">
@@ -245,7 +249,7 @@
                                                 given by the user.
                                             </p>
                                             <a href="https://github.com/DivyaKumarBaid/Discord_Music_bot"> <button
-                                                    class="btn btn-outline-primary">
+                                                    class="btn btn-primary">
                                                     < Source Code />
                                                 </button>
                                             </a>
@@ -257,7 +261,7 @@
                             </div>
 
                         </div>
-                        <div class="col">
+                        <div class="col-md">
 
 
                             <div id="card" class="two">
@@ -268,7 +272,7 @@
                                             <p>A webpage created using php , js , html and css. This is a public chat
                                                 room and thus anyone can ping in here.</p>
                                             <a href="https://github.com/DivyaKumarBaid/Public_chat_room"> <button
-                                                    class="btn btn-outline-primary">
+                                                    class="btn btn-primary">
                                                     < Source Code />
                                                 </button></a>
 
@@ -280,7 +284,7 @@
 
 
                         </div>
-                        <div class="col">
+                        <div class="col-md">
 
 
                             <div id="card" class="three">
@@ -294,7 +298,7 @@
                                                 system.
                                             </p>
                                             <a href="https://github.com/DivyaKumarBaid/Live_Discord_music_bot"> <button
-                                                    class="btn btn-outline-primary">
+                                                    class="btn btn-primary">
                                                     < Source Code />
                                                 </button></a>
 
@@ -312,9 +316,9 @@
         </div>
 
     </section>
-    
+
     <!-- this is end of fourth page -->
-    
+
     <!-- this is fifthpage -->
 
 
@@ -335,85 +339,103 @@
                     <h2>k</h2>
                     <h2>&#93;</h2>
                 </span>
-
                 <div id="containscard">
-                    <div id="card">
-                        <div id="imagebox">
-                            <img src="pics/icons/java.svg" alt="">
-                            <h3>Java</h3>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col">
+                                <div id="card">
+                                    <div id="imagebox">
+                                        <img src="pics/icons/java.svg" alt="">
+                                        <h3>Java</h3>
+                                    </div>
+                                    <div id="content">
+                                        <p>Oh that long syntax to print is annoying, here is a tip just use Print Stream class to avoid these long syntax XD
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div id="card">
+                                    <div id="imagebox">
+                                        <img src="pics/icons/python.svg" alt="">
+                                        <h3>Python</h3>
+                                    </div>
+                                    <div id="content">
+                                        <p>Seriously be inline and be indented, dont know when function might ignore you !
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div id="card">
+                                    <div id="imagebox">
+                                        <img src="pics/icons/php.svg" alt="">
+                                        <h3>PHP</h3>
+                                    </div>
+                                    <div id="content">
+                                        <p>That mixing is really dangerous. Comes handy when you wanna ruin your webpage, combining it with html and css might end up frustrating you !
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div id="content">
-                            <p>Oh that long syntax to print is annoying, here is a tip just use Print Stream class to avoid these long syntax XD
-                            </p>
-                        </div>
-                    </div>
+                        <div class="row">
+
+                            <div class="col">
+                                <div id="card">
+                                    <div id="imagebox">
+                                        <img src="pics/icons/html.svg" alt="">
+                                        <h3>HTML</h3>
+                                    </div>
+                                    <div id="content">
+                                        <p>Forget to close tags and you end up not figuring out what you did wrong and yeah use class and id wisely.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div id="card">
+                                    <div id="imagebox">
+                                        <img src="pics/icons/css.svg" alt="">
+                                        <h3>CSS</h3>
+                                    </div>
+                                    <div id="content">
+                                        <p>The long run to debug css could last a year so dont mess it at first place(sarcasm included) and yeah try linking right name to your html doc.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
 
 
-                    <div id="card">
-                        <div id="imagebox">
-                            <img src="pics/icons/python.svg" alt="">
-                            <h3>Python</h3>
-                        </div>
-                        <div id="content">
-                            <p>Seriously be inline and be indented, dont know when function might ignore you !
-                            </p>
-                        </div>
-                    </div>
+                            <div class="col">
+                                <div id="card">
+                                    <div id="imagebox">
+                                        <img src="pics/icons/js.svg" alt="">
+                                        <h3>Java Script</h3>
+                                    </div>
+                                    <div id="content">
+                                        <p>I would say it is the magician that can give your webpage glory but if used wrong it just ruins your case !
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
 
-                    <div id="card">
-                        <div id="imagebox">
-                            <img src="pics/icons/php.svg" alt="">
-                            <h3>PHP</h3>
-                        </div>
-                        <div id="content">
-                            <p>That mixing is really dangerous. Comes handy when you wanna ruin your webpage, combining it with html and css might end up frustrating you !
-                            </p>
-                        </div>
-                    </div>
-                    <div id="card">
-                        <div id="imagebox">
-                            <img src="pics/icons/html.svg" alt="">
-                            <h3>HTML</h3>
-                        </div>
-                        <div id="content">
-                            <p>Forget to close tags and you end up not figuring out what you did wrong and yeah use class and id wisely.
-                            </p>
-                        </div>
-                    </div>
-
-
-                    <div id="card">
-                        <div id="imagebox">
-                            <img src="pics/icons/css.svg" alt="">
-                            <h3>CSS</h3>
-                        </div>
-                        <div id="content">
-                            <p>The long run to debug css could last a year so dont mess it at first place(sarcasm included) and yeah try linking right name to your html doc.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div id="card">
-                        <div id="imagebox">
-                            <img src="pics/icons/js.svg" alt="">
-                            <h3>Java Script</h3>
-                        </div>
-                        <div id="content">
-                            <p>I would say it is the magician that can give your webpage glory but if used wrong it just ruins your case !
-                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    
+
     <!-- this is end of fifth page -->
 
-<!-- this is last page -->
+    <!-- this is last page -->
 
     <section id="b">
-          <span><img src="pics/contact me/lastlayer.png" alt=""></span>
+
         <div id="containers">
             <div id="imgbx">
                 <img src="pics/contact me/contactme.png" alt="" width="70%" height="70%">
@@ -422,7 +444,8 @@
             </div>
             <h2>Contact Me and Connect With Me</h2>
             <div id="skew">
-                <p>You can Email me on <a href="mailto:divyakumarbaid.2001@gmail.com" id="email"> divyakumarbaid.2001@gmail.com</a><br> Or Ping me on <a href="https://twitter.com/DivyakumarBaid1?s=09">twitter</a>
+                <p>You can Email me on <a href="mailto:divyakumarbaid.2001@gmail.com" id="email">
+                        divyakumarbaid.2001@gmail.com</a><br> Or Ping me on <a href="https://twitter.com/DivyakumarBaid1?s=09">twitter</a>
                 </p>
                 <p id="links">You can connect with me on
                     <ul>
@@ -435,10 +458,14 @@
             </div>
         </div>
     </section>
+    <div class="footer">
+        Thanks For Visiting
+        <img src="https://media1.tenor.com/images/f96e7d2ca7accfb8b6185859afee09b3/tenor.gif?itemid=13031125" alt="" height="100">
+    </div>
 
     <!-- this is end of last page -->
 
-<!-- JS STARTS -->
+    <!-- JS STARTS -->
 
     <!-- this was for parallax effect -->
     <script type="text/javascript">
@@ -491,7 +518,7 @@
     <!-- loader -->
     <script type="text/javascript">
         function loadfun() {
-            myVar = setTimeout(showPage, 2000);
+            myVar = setTimeout(showPage, 0);
         }
 
         function showPage() {
